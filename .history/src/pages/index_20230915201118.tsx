@@ -6,7 +6,9 @@ const HomePage: React.FC = () => {
 
   return (
     <div>
-   
+     
+      <h1>Fixpoint Currently under construction</h1>
+      <Countdown targetDate={targetDate} />
       <main className="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
           <p className="text-base font-semibold text-indigo-600">Fixpoint</p>
