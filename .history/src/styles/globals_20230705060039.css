@@ -2,37 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: sans-serif;
-}
-
-.countdown-timer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #fff;
-}
-
-.countdown-timer__clock {
-  font-size: 100px;
-  font-weight: bold;
-}
-
-.countdown-timer__controls {
-  margin-top: 50px;
-}
-
-.countdown-timer__controls button {
-  padding: 10px 20px;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

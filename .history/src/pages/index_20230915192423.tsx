@@ -1,22 +1,9 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import React, { useState, useEffect } from "react";
-// import globals from '../styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const [seconds, setSeconds] = useState(10);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (seconds > 0) {
-        setSeconds(seconds - 1);
-      }
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, [seconds]);
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
