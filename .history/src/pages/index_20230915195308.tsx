@@ -1,11 +1,11 @@
 import Countdown from '../../components/Countdown';
 
 const HomePage: React.FC = () => {
-  const targetDate = '2023-09-30T00:00:00';
+  const targetDate = '2023-30-01T00:00:00';
 
   return (
     <div>
-      <h1>Fixpoint Currently under construction</h1>
+      <h1>Welcome to My Landing Page</h1>
       <Countdown targetDate={targetDate} />
     </div>
   );

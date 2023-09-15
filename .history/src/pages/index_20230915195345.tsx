@@ -5,7 +5,7 @@ const HomePage: React.FC = () => {
 
   return (
     <div>
-      <h1>Fixpoint Currently under construction</h1>
+      <h1>Welcome to </h1>
       <Countdown targetDate={targetDate} />
     </div>
   );
