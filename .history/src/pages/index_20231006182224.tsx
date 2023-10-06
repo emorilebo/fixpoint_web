@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Countdown from '../../components/Countdown';
 
 const HomePage: React.FC = () => {
-  const targetDate = '2023-10-15T00:00:00';
+  const targetDate = '2023-10-30T00:00:00';
 
   return (
     <div>
