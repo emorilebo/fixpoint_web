@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Countdown from '../../components/Countdown';
-import MyUploader from '../../components/MyUpploader';
 
 const HomePage: React.FC = () => {
   const targetDate = '2023-10-15T00:00:00';
